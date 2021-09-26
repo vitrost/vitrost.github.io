@@ -1,0 +1,109 @@
+/*CSS created by Bobby - super@bobibonchev.com*/
+
+/*Site strukture*/
+#body {
+background-image:url("fon.png");
+background-repeat:repeat-x;
+background-color: #FFFFFF;
+background-position:center top;
+  border: 0 solid red;
+  font: 13px/14px Georgia, Verdana,sans-serif;
+  margin: 0px 0;
+  text-align: center;
+}
+#wrapper {position: relative; width: 993px; text-align: left; margin: 0 auto; border: 0px solid red;}
+#hdr {overflow: hidden; background: url(header1.png) no-repeat;  border: 0px solid red;}
+#hdr-link {margin-left: 220px; width: 570px; height: 90px; border: 0px solid blue;}
+#ftr {background:#fff url(footer-bg.png) repeat-x; margin: 1px 17px 0 17px; height: 200px;}
+#ftr-menu {margin:16px 20px 0 20px; height: 25px; border: 0px solid red; padding-top: 25px; text-align: center; font-weight: bold; font-size: 13px; color: #858585;}
+#ftr-menu-links { text-decoration: none; color: #B01233;}
+#menu {margin:16px 20px 0 20px; height: 25px; border: 0px solid red; padding-top: 8px; text-align: center; font-weight: bold; font-size: 15px; color: #858585;}
+#menu-links { text-decoration: none; padding: 0 3px 0 3px; color: #B01233;}
+#menu-links:hover { text-decoration: underline; padding: 0 3px 0 3px; underline; color: #B01233;}
+#menu-links-sel { text-decoration: none; padding: 0 3px 0 3px; color: #fff; background:#858585; }
+#podmenu {margin:5px 20px 0 20px; height: 30px; border: 0px solid red; padding-top: 7px; color: #858585;}
+#putechka {float: left; margin-left: 20px; font-weight: bold;  border: 0px solid red; font-size: 11px;}
+#p-l {text-decoration: none; color: #B01233;}
+#tursene{float: right; margin-right:10px;  border: 0px solid red;}
+#srch {float: left; margin: 0 5px 0 0; width: 280px; height: 18px; border: 1px solid #858585;}
+#main {margin:5px 30px 10px 30px;  border: 0px solid blue;}
+#left {float: left; width: 620px; border: 0px solid orange; overflow: hidden;}
+#right {float: right; width: 310px; border: 0px solid orange;}
+/*End of strukture*/
+
+/*Login panel */
+#login {margin: 10px 0 0 0; background: url(login-box.png) no-repeat; height: 136px;  border: 0px solid orange;}
+#user {float: left; margin: 41px 3px 0 10px; width: 105px; height: 18px; border: 1px solid #858585; background: #F7F7F8; color: #858585;}
+#pass {float: left; margin: 41px 5px 0 0; width: 105px; height: 18px; border: 1px solid #858585; background: #F7F7F8; color: #858585;}
+#vhod-btn {border: 0px solid; margin-top: 40px;}
+#checkbox {margin: 18px 0 0 10px;}
+#checkboxtxt {margin: -13px 0 0 28px; font-size: 13px; color: #858585;}
+#loginlinks {margin-top: 8px;}
+#regtxt {margin: 0px 0 0 25px; text-decoration: none; color: #B01233;}
+#losttxt {margin: 0px 0 0 37px; text-decoration: none; color: #B01233;}
+/*End of Login panel */
+
+/*Site boxes*/
+#banner {width: 300px; padding-top:10px; padding-bottom:10px;}
+#polezno {width: 293px; border-top: 1px solid #D1D1D1; margin: 10px 0 0 1px; overflow: hidden; padding:10px 0 0 10px;}
+#polezno-links {text-decoration: none; color: #B01233; font-size: 14px; line-height: 17px; font-weight: bold;}
+#box-btm {background: url(box-btm.png) no-repeat; height: 22px;}
+#anketa {width: 293px; background: url(anketa-bg.png) repeat-x; border: 1px solid #D1D1D1; margin: 10px 0 0 1px; overflow: hidden; padding:10px 0 0 10px;}
+#ank-hd { margin: 0 10px 0 0px; font-size: 16px; height: 20px; border-bottom: 1px solid #d1d1d1; font-weight: bold; color: #666;}
+#ank-q { margin: 10px 10px 10px 0px; font-size: 15px; height: 15px; color: #666;}
+#ank-radio {margin: -13px 10px 5px 25px; font-size: 12px; color: #B01233; border: 0px solid;}
+#ank-s {margin: 10px 0 5px 15px; background: url(glasuvam.png) no-repeat; width: 99px; height: 26px; border: 0 solid;}
+#ank-rz {margin: 0 10px 0 0px; font-size: 12px; padding: 5px 0 15px 0; border-top: 1px solid #d1d1d1; color: #666;}
+#polezno2 {width: 293px;  margin: 5px 0 0 1px; overflow: hidden; padding:10px 0 0 10px;}
+#polezno-links2 {text-decoration: none; color: #B01233; font-size: 13px; line-height: 14px;}
+
+#cbox {width: 100%; background: url(c-box-bg.png) repeat-x; overflow: hidden; border: 0px solid solid;}
+#cbox-l {float: left; margin-top:18px; padding: 5px; width: 48%; font: 13px, Verdana, sans-serif; overflow: hidden; border: 0px solid blue;}
+#cbox-l-img {float: left; width: 135px; margin: 0 5px 5px 0;}
+#cbox-links {text-decoration: none; color: #B01233; font: 14px/14px Georgia, Verdana, sans-serif; line-height: 17px; font-weight: bold;}
+#cbox-btm-bg {background: url(cbox-btm-bg.png) no-repeat; height: 22px;}
+#art-link {text-decoration: none; color: #B01233; font-size: 14px; line-height: 14px; font-weight: bold;}
+#razdelitel { background: url(razdelitel.png) no-repeat; height: 17px;}
+#razdelitel-m { background: url(razdelitel-m.png) no-repeat; height: 17px;}
+#razdelitel-b { background: url(razdelitel-b.png) no-repeat; overflow: hidden; height: 17px; border: 0px solid;}
+#razdelitel-bb { background: url(razdelitel-bb.png) no-repeat; overflow: hidden; height: 17px; border: 0px solid;}
+#stats {margin: 4px; font-size: 11px; color: #666; }
+#cbox-r {float: right; margin-top:18px; padding: 5px; width: 48%; overflow: hidden; border: 0px solid blue;}
+
+#btbox {width: 100%; margin-top: 15px; overflow: hidden; border: 0px solid blue;}
+#btbox-l {float: left; width: 150px; background: url(anketa-bg.png) repeat-x; border: 1px solid #D1D1D1; border-bottom: 0px solid; overflow: hidden; padding:10px 0 0 10px;}
+#btbox-l-btm {margin: 0px 0 0 1px; width: 150px; background: url(btbox-l-btm.png) no-repeat; height: 17px;}
+#btbox-l-txt {font: 12px, Verdana, sans-serif;}
+#btbox-l-hd { margin: 0 10px 0 0px; font-size: 14px; line-height: 16px; text-align: center; height: 35px; border-bottom: 1px solid #d1d1d1; font-weight: bold; color: #666;}
+#btbox-r {float: right; width: 450px; background: url(c-box-bg.png) repeat-x; margin:-7px 0 0 5px; overflow: hidden; border: 0px solid;}
+#btbox-r-hd { margin: 0px 0px 0 180px; font-size: 14px; height: 15px; font-weight: bold; color: #666;}
+#btbox-r-all {margin: 16px 10px 5px 0; text-align: right; text-decoration: none; font-weight: bold; color: #B01233; height: 15px;}
+#btbox-r-lr { overflow: hidden; border:0px solid; overflow: hidden;}
+#btbox-r-lr-btm {width: 430px; margin: 10px 0 0 10px; overflow: hidden; border:0px solid; overflow: hidden;}
+#btbox-r-l{float: left; width: 135px; margin: 0 0 0 10px; overflow: hidden; border:0px solid;}
+#btbox-r-r{float: right; width: 280px; margin: 0 10px 0 0; overflow: hidden; border:0px solid;}
+
+#banner728 {width: 100%; overflow: hidden;}
+#banner728-img {margin: 15px 0 15px 130px; width: 728px; height: 90px; overflow: hidden;}
+#razdelitel-news {background: url(razdelitel-news.png) no-repeat; margin-left: 25px; height: 17px;}
+#cbox-n {width: 100%; background: url(c-box-bg.png) repeat-x; padding: 0px 0px 0px 0px; overflow: hidden; border: 0px solid solid;}
+#cbox-n-hd { margin: 0 10px 0 0px; font-size: 18px; color: #B01233; font-weight: none;}
+#news-hd {border: 0px solid; width: 95%; margin: 20px 0;}
+#news-txt {float: left; margin-top:5px; width: 94%; padding: 5px; font: 13px, Verdana, sans-serif; overflow: hidden; border: 0px solid blue;}
+#news-img {float: left; width: 280px; margin: 0 5px 5px 0;}
+
+#com-ime-txt {color: #858585;}
+#com-ime {width: 255px; margin-top: -10px; margin-bottom: 10px; height: 18px; border: 1px solid #858585; background: #F7F7F8; color: #858585;}
+#comment {width: 255px; margin-top: -10px; margin-bottom: 10px; border: 1px solid #858585; background: #F7F7F8; color: #858585;}
+#com-kod {width: 250px; height: 80px; margin: -90px 0 0 270px; border: 0px solid;}
+#com-s {margin: 10px 0 5px 215px; background: url(izprati.png) no-repeat; width: 99px; height: 26px; border: 0 solid;}
+#kodid {width: 100px; height: 25px; margin: -45px 0 0 10px; font-size: 22px; padding-top: 10px; background: #858585; color: #333; text-align: center;}
+#com-kodin {width: 105px; margin: 15px 0 10px 120px; height: 30px; border: 1px solid #858585; background: #F7F7F8; color: #858585;}
+#com-list {overflow: hidden; width:98%; font: 13px, Verdana, sans-serif; border: 0px solid; color: #666;}
+#com-title {float: left; padding: 3px; height: 22px; border: 0px solid;}
+#com-vote {float: right; padding: 3px; height: 22px; border: 0px solid;}
+#com-desc {width: 100%; padding: 5px; margin-top: 30px; border: 0px solid;}
+
+#list-box-hd { margin: 0px 0px 0 15px; font-size: 14px; height: 15px; font-weight: bold; color: #666;}
+#video-box
+/*End of boxes*/
